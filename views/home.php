@@ -46,34 +46,39 @@ body {font-family: "Lato", sans-serif}
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="/w3images/la.jpg" style="width:100%">
+    <img src="<?php BASE_URL;?>assets/images/foto (2).jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Cabreúva</h3>
-      <p><b>We had the best time playing at Venice Beach!</b></p>   
+      <p><b>As melhores musicas tocados!</b></p>   
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="/w3images/ny.jpg" style="width:100%">
+    <img src="<?php BASE_URL;?>assets/images/foto (14).jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Itupeva</h3>
-      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+      <p><b>O tempo está para sertanejo universitário.</b></p>    
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="/w3images/chicago.jpg" style="width:100%">
+    <img src="<?php BASE_URL;?>assets/images/foto (3).jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Itu</h3>
-      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+      <p><b>Obrigado, Itu - Foi uma noite inesquecivel.</b></p>    
+    </div>
+  </div>
+   <div class="mySlides w3-display-container w3-center">
+    <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Itu</h3>
+      <p><b>Obrigado, Itu - Foi uma noite inesquecivel.</b></p>    
     </div>
   </div>
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h2 class="w3-wide">EU</h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p class="w3-opacity"><i>Você gosta de musica</i></p>
+    <p class="w3-justify">Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.[1] O sertanejo é atualmente o mais popular estilo musical no Brasil, superando inclusive o samba, na maioria dos estados do país (especialmente São Paulo, Minas Gerais, Goiás, Paraná, Mato Grosso do Sul, Mato Grosso, Rondônia e Tocantins).</p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
         <p>Name</p>
@@ -94,38 +99,38 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-black" id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">AGENDAS</h2>
-      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+      <p class="w3-opacity w3-center"><i>Pra você lembrar onde vou estar!</i></p><br>
 
       <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">Agosto <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">Novembro <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">Agosto <span class="w3-tag w3-red w3-margin-left">Cabreúva - Black Strike</span></li>
+        <li class="w3-padding">Novembro <span class="w3-tag w3-red w3-margin-left">Pirapora de Jesus -Romeiros</span></li>
         <li class="w3-padding">Dezembro <span class="w3-badge w3-right w3-margin-right">3</span></li>
       </ul>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <img src="/w3images/newyork.jpg" alt="Cabreúva" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Cabreúva</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
+            <p class="w3-opacity">Fri 27 Nov 2019</p>
             <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <img src="/w3images/paris.jpg" alt="Itupeva" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Itupeva</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p class="w3-opacity">Sat 28 Nov 2019</p>
             <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <img src="/w3images/sanfran.jpg" alt="Itu" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Itu</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
+            <p class="w3-opacity">Sun 29 Nov 2019</p>
             <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
           </div>
@@ -157,11 +162,11 @@ body {font-family: "Lato", sans-serif}
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">CONTATO</h2>
-    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <p class="w3-opacity w3-center"><i>Fan? Anote ai!</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i> Cabreúva, SP<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +55 (11)9117<br>
+        <i class="fa fa-phone" style="width:30px"></i> Celular: +55 (11)97117-5785<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: fredyferreira1987@gmail.com<br>
       </div>
       <div class="w3-col m6">
@@ -189,12 +194,12 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
+<!--  <i class="fa fa-snapchat w3-hover-opacity"></i>
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>-->
   <p class="w3-medium">Desenvolvido <a href="https://www.devmg.pe.hu" target="_blank">Marcel Hoyama</a></p>
 </footer>
 
