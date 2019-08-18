@@ -1,9 +1,14 @@
  
-<!DOCTYPE html>
-<html lang="pt">
+
 <title>Fredy Oliveira</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF=8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name= "viewport" content= "width=device-width, user-scalable=no" />
+    <META NAME="Robots" CONTENT="INDEX,FOLLOW">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta name="revisit-after" content="2">
+    <meta name="classification" content="cantor sertanejo">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,37 +21,46 @@ body {font-family: "Lato", sans-serif}
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EU</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">AGENDA</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MAIS <i class="fa fa-caret-down"></i></button>     
+    <!--<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>-->
+      <a href="#"class="w3-bar-item w3-button w3-padding-large w3-text-yellow">Fredy Oliveira</a>
+      
+      <div class="w3-right">
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-text-yellow">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-text-yellow">RELEASE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-text-yellow">AGENDA</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button w3-text-yellow" title="More">MAIS <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Galeria</a>
-        <a href="#" class="w3-bar-item w3-button">Vídeos</a>
-        <a href="#" class="w3-bar-item w3-button">Shows</a>
+        <a href="<?php BASE_URL;?>galeria" class="w3-bar-item w3-button w3-text-yellow">Galeria</a>
+        <a href="#" class="w3-bar-item w3-button w3-text-yellow">Vídeos</a>
+        <a href="#" class="w3-bar-item w3-button w3-text-yellow">Shows</a>
+         <a href="#" class="w3-bar-item w3-button w3-text-yellow">Material de Divulgação</a>
       </div>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-text-yellow ">CONTATO</a>
+  
+<!--    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
   </div>
+      </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EU</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">AGENDA</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAIS</a>
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">RELEASE</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">AGENDA</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">CONTATO</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">MAIS</a>
 </div>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="w3-content" style="max-width:100%;margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="<?php BASE_URL;?>assets/images/foto (2).jpg" style="width:100%">
+    <img src="<?php BASE_URL;?>assets/images/foto (22).jpg" style="width:100%">
+    <div class="w3-display-middle w3-margin-top w3-center">
+    <img src="<?php BASE_URL;?>assets/images/logo1.png" class="w3-xxlarge">
+  </div>
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Cabreúva</h3>
       <p><b>As melhores musicas tocados!</b></p>   
@@ -54,6 +68,9 @@ body {font-family: "Lato", sans-serif}
   </div>
   <div class="mySlides w3-display-container w3-center">
     <img src="<?php BASE_URL;?>assets/images/foto (14).jpg" style="width:100%">
+    <div class="w3-display-middle w3-margin-top w3-center">
+     <img src="<?php BASE_URL;?>assets/images/logo1.png" class="w3-xxlarge">
+    </div>
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Itupeva</h3>
       <p><b>O tempo está para sertanejo universitário.</b></p>    
@@ -61,6 +78,9 @@ body {font-family: "Lato", sans-serif}
   </div>
   <div class="mySlides w3-display-container w3-center">
     <img src="<?php BASE_URL;?>assets/images/foto (3).jpg" style="width:100%">
+    <div class="w3-display-middle w3-margin-top w3-center">
+     <img src="<?php BASE_URL;?>assets/images/logo1.png" class="w3-xxlarge">
+    </div>
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Itu</h3>
       <p><b>Obrigado, Itu - Foi uma noite inesquecivel.</b></p>    
@@ -68,6 +88,9 @@ body {font-family: "Lato", sans-serif}
   </div>
    <div class="mySlides w3-display-container w3-center">
     <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" style="width:100%">
+    <div class="w3-display-middle w3-margin-top w3-center">
+      <img src="<?php BASE_URL;?>assets/images/logo1.png" class="w3-xxlarge">
+    </div>
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Itu</h3>
       <p><b>Obrigado, Itu - Foi uma noite inesquecivel.</b></p>    
@@ -76,29 +99,32 @@ body {font-family: "Lato", sans-serif}
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">EU</h2>
-    <p class="w3-opacity"><i>Você gosta de musica</i></p>
+    <h2 class="w3-wide w3-text-yellow">Release</h2>
+    <p class="w3-opacity"><i>A origem</i></p>
     <p class="w3-justify">Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.[1] O sertanejo é atualmente o mais popular estilo musical no Brasil, superando inclusive o samba, na maioria dos estados do país (especialmente São Paulo, Minas Gerais, Goiás, Paraná, Mato Grosso do Sul, Mato Grosso, Rondônia e Tocantins).</p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Fredy Oliveira</p>
+        <img src="<?php BASE_URL;?>assets/images/foto (28).jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Rony Empresário</p>
+        <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+        <p>ps-maciel Publicidade </p>
+        <img src="<?php BASE_URL;?>assets/images/foto (2).jpg" class="w3-round" alt="Random Name" style="width:60%">
       </div>
     </div>
+    <p class="w3-opacity"><i>Em 2010</i></p>
+    <p class="w3-justify">Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.[1] O sertanejo é atualmente o mais popular estilo musical no Brasil, superando inclusive o samba, na maioria dos estados do país (especialmente São Paulo, Minas Gerais, Goiás, Paraná, Mato Grosso do Sul, Mato Grosso, Rondônia e Tocantins).</p>
+    
   </div>
 
   <!-- The Tour Section -->
   <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">AGENDAS</h2>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:100%">
+      <h2 class="w3-wide w3-center w3-text-yellow">AGENDAS</h2>
       <p class="w3-opacity w3-center"><i>Pra você lembrar onde vou estar!</i></p><br>
 
       <ul class="w3-ul w3-border w3-white w3-text-grey">
@@ -109,30 +135,66 @@ body {font-family: "Lato", sans-serif}
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="Cabreúva" style="width:100%" class="w3-hover-opacity">
+          <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Cabreúva" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Cabreúva</b></p>
             <p class="w3-opacity">Fri 27 Nov 2019</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            <p>Evento na Festa Junhina Prefeitura de Cabreúva .</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mais Informações</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Itupeva" style="width:100%" class="w3-hover-opacity">
+          <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Itupeva" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Itupeva</b></p>
             <p class="w3-opacity">Sat 28 Nov 2019</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            <p>Show de Culinária.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mais Informações</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="Itu" style="width:100%" class="w3-hover-opacity">
+          <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Itu" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Itu</b></p>
             <p class="w3-opacity">Sun 29 Nov 2019</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            <p>Show Bar do Whisk.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mais Informações</button>
+          </div>
+        </div>
+            <div class="w3-third w3-margin-bottom">
+          <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Itu" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Itu</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2019</p>
+            <p>Show Bar do Whisk.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mais Informações</button>
+          </div>
+        </div>
+            <div class="w3-third w3-margin-bottom">
+          <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Itu" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Itu</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2019</p>
+            <p>Show Bar do Whisk.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mais Informações</button>
+          </div>
+        </div>
+            <div class="w3-third w3-margin-bottom">
+          <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Itu" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Itu</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2019</p>
+            <p>Show Bar do Whisk.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mais Informações</button>
+          </div>
+        </div>
+            <div class="w3-third w3-margin-bottom">
+          <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Itu" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Itu</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2019</p>
+            <p>Show Bar do Whisk.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mais Informações</button>
           </div>
         </div>
       </div>
@@ -145,35 +207,35 @@ body {font-family: "Lato", sans-serif}
       <header class="w3-container w3-teal w3-center w3-padding-32"> 
         <span onclick="document.getElementById('ticketModal').style.display='none'" 
        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Deixe seu Contato</h2>
       </header>
       <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        <p><label><i class="fa fa-envelope"></i> Deixe seu E-mail </label></p>
+        <input class="w3-input w3-border" type="text" placeholder="seu melhor e-mail">
+        <p><label><i class="fa fa-phone"></i> Deixe seu whatsapp</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Seu numero (xx) 00000-0000">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">Enviar <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Precisa <a href="#" class="w3-text-blue">de ajuda?</a></p>
       </div>
     </div>
   </div>
 
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTATO</h2>
+    <h2 class="w3-wide w3-center w3-text-yellow">CONTATO</h2>
     <p class="w3-opacity w3-center"><i>Fan? Anote ai!</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i> Cabreúva, SP<br>
-        <i class="fa fa-phone" style="width:30px"></i> Celular: +55 (11)97117-5785<br>
+        <i class="fa fa-phone" style="width:30px"></i> Celular: +55 (11)9.7117-5785<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: fredyferreira1987@gmail.com<br>
       </div>
       <div class="w3-col m6">
         <form action="/action_page.php" target="_blank">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name">
             </div>
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
@@ -192,16 +254,7 @@ body {font-family: "Lato", sans-serif}
 <!-- Image of location/map -->
 <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-<!--  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>-->
-  <p class="w3-medium">Desenvolvido <a href="https://www.devmg.pe.hu" target="_blank">Marcel Hoyama</a></p>
-</footer>
+
 
 <script>
 // Automatic Slideshow - change image every 4 seconds
@@ -240,5 +293,5 @@ window.onclick = function(event) {
 </script>
 
 </body>
-</html>
+
 

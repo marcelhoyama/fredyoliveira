@@ -1,5 +1,5 @@
 <?php
-class homeController extends controller{
+class galeriaController extends controller{
 
 
  public function __construct(){
@@ -11,7 +11,7 @@ class homeController extends controller{
         $dados = array();
 
        
-        $this->loadTemplate('home', $dados);
+        $this->loadTemplate('galeria', $dados);
     }
     
     
