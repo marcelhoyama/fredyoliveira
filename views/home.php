@@ -26,14 +26,14 @@ body {font-family: "Lato", sans-serif}
       
       <div class="w3-right">
       <a href="#" class="w3-bar-item w3-button w3-padding-large w3-text-yellow">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-text-yellow">RELEASE</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-text-yellow">BIOGRAFIA</a>
     <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-text-yellow">AGENDA</a>
       <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button w3-text-yellow" title="More">MAIS <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="<?php BASE_URL;?>galeria" class="w3-bar-item w3-button w3-text-yellow">Galeria</a>
-        <a href="#" class="w3-bar-item w3-button w3-text-yellow">Vídeos</a>
-        <a href="#" class="w3-bar-item w3-button w3-text-yellow">Shows</a>
+        <a href="#fotos" class="w3-bar-item w3-button w3-text-yellow">Galeria</a>
+        <a href="#videos" class="w3-bar-item w3-button w3-text-yellow">Vídeos</a>
+  
          <a href="#" class="w3-bar-item w3-button w3-text-yellow">Material de Divulgação</a>
       </div>
     </div>
@@ -46,7 +46,7 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">RELEASE</a>
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">BIOGRAFIA</a>
   <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">AGENDA</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">CONTATO</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-text-yellow" onclick="myFunction()">MAIS</a>
@@ -99,7 +99,7 @@ body {font-family: "Lato", sans-serif}
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide w3-text-yellow">Release</h2>
+    <h2 class="w3-wide w3-text-yellow">Biografia</h2>
     <p class="w3-opacity"><i>A origem</i></p>
     <p class="w3-justify">Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.[1] O sertanejo é atualmente o mais popular estilo musical no Brasil, superando inclusive o samba, na maioria dos estados do país (especialmente São Paulo, Minas Gerais, Goiás, Paraná, Mato Grosso do Sul, Mato Grosso, Rondônia e Tocantins).</p>
     <div class="w3-row w3-padding-32">
@@ -133,6 +133,17 @@ body {font-family: "Lato", sans-serif}
         <li class="w3-padding">Dezembro <span class="w3-badge w3-right w3-margin-right">3</span></li>
       </ul>
 
+   
+      
+    </div>
+  </div>
+  <!-- The videos Section -->
+  <div class="" id="videos">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:100%">
+      <h2 class="w3-wide w3-center w3-text-yellow">VÍDEOS</h2>
+      <p class="w3-opacity w3-center"><i>Pra você lembrar grandes momentos!</i></p><br>
+
+     
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
           <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Cabreúva" style="width:100%" class="w3-hover-opacity">
@@ -221,6 +232,57 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 
+   <!-- The fotos Section -->
+  <div class="w3-black" id="fotos">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:100%">
+      <h2 class="w3-wide w3-center w3-text-yellow">Galeria</h2>
+      <p class="w3-opacity w3-center"><i>Pra você lembrar onde vou estar!</i></p><br>
+<div class="container w3-padding-64">
+      
+<!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+    <button class=" w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+
+</div>
+
+   
+      
+    </div>
+  </div>
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center w3-text-yellow">CONTATO</h2>
@@ -292,6 +354,24 @@ window.onclick = function(event) {
 }
 </script>
 
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
 </body>
 
 

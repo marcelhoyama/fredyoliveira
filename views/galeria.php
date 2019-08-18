@@ -74,7 +74,7 @@
     <div class="w3-col m3">
       <img src="<?php BASE_URL; ?>assets/images/foto (28).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+    <button class=" w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
   </div>
 
 </div>
