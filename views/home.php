@@ -172,28 +172,28 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>-->
 
-  <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <!-- The Band Section  foto tem q ser/100px180/-->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:900px" id="band">
     <h2 class="w3-wide w3-text-yellow">Biografia</h2>
     <p class="w3-opacity"><i>A origem</i></p>
     <p class="w3-justify">Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.[1] O sertanejo é atualmente o mais popular estilo musical no Brasil, superando inclusive o samba, na maioria dos estados do país (especialmente São Paulo, Minas Gerais, Goiás, Paraná, Mato Grosso do Sul, Mato Grosso, Rondônia e Tocantins).</p>
    
-    <div class="row">
-    <div class="float-left">
+    <div class="row ">
+    <div class="mr-5 ml-auto">
     
-    <div class="card " style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+    <div class="card " style="width: 15rem;">
+  <img src="<?php BASE_URL;?>assets/images/foto (28).jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Fredy Oliveira</h5>
     <p class="card-text">Cantor Sertanejo </p>
 <!--    <a href="#" class="btn btn-primary">Go somewhere</a>-->
   </div>
 </div>
-        
-    </div>
-    <div class="float-none">
-    <div class="ml-2 mr-2 card " style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+        </div>
+       
+    <div class="mr-5">
+    <div class="card" style="width: 15rem;">
+  <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Rony Vieira</h5>
     <p class="card-text">Empresário </p>
@@ -201,19 +201,20 @@ body {font-family: "Lato", sans-serif}
   </div>
 </div>
     </div>
-    
-    <div class="float-right">
-    <div class="card p-2 " style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+   
+    <div class="mr-auto">
+    <div class="card" style="width: 15rem;">
+  <img src="<?php BASE_URL;?>assets/images/foto (2).jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Marcel Hoyama</h5>
-    <p class="card-text">ps-maciel publicidade e marketing  </p>
+    <p class="card-text">publicidade e marketing  </p>
 <!--    <a href="#" class="btn btn-primary">Go somewhere</a>-->
   </div>
 </div>
         
     </div>
    </div>
+    
 <!--    <div class="w3-row w3-padding-32">
       <div class="w3-third">
         <p>Fredy Oliveira</p>
@@ -256,17 +257,26 @@ body {font-family: "Lato", sans-serif}
       <h2 class="w3-wide w3-center w3-text-yellow">VÍDEOS</h2>
       <p class="w3-opacity w3-center"><i>Pra você lembrar grandes momentos!</i></p><br>
 
-     
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Cabreúva" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-third w3-margin-bottom" data-toggle="modal" data-target=".bd-example-modal-lg">
+          <img src="https://img.youtube.com/vi/T7Dvz1SwplU/0.jpg" alt="Cabreúva" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Cabreúva</b></p>
             <p class="w3-opacity">Fri 27 Nov 2019</p>
-            <p>Evento na Festa Junhina Prefeitura de Cabreúva .</p>
+            <p>Cabreuva</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mais Informações</button>
           </div>
         </div>
+  
+          <!-- Modal grande -->
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class= "embed-responsive embed-responsive-16by9" > <iframe class= "embed-responsive-item" src="https://www.youtube.com/embed/T7Dvz1SwplU?modestbranding=1″showinfo=0&fs=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allownetworking=”internal” ></iframe> </div> 
+    </div>
+  </div>
+</div>
         <div class="w3-third w3-margin-bottom">
           <img src="<?php BASE_URL;?>assets/images/foto (5).jpg" alt="Itupeva" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
