@@ -6,6 +6,7 @@
         <!--  aqui onde vai o corpo das paginas do sistema -->
         <?php $this->loadViewInTemplate($viewName, $viewData); ?>
         <center class="">
+            <p class="w3-opacity w3-center"><i>Fan, me segue nas Redes Sociais!</i></p>
             <a href="https://www.facebook.com/fredyefilipe">   <img src="<?php BASE_URL; ?>assets/images/facebook.png" class="w3-hover-opacity" width="100px" height="100px"></a>
             <a href="#">   <img src="<?php BASE_URL; ?>assets/images/youtube.png" class="w3-hover-opacity" width="100px" height="100px"></a>
             <a href="#">   <img src="<?php BASE_URL; ?>assets/images/instagran.png" class="w3-hover-opacity" width="100px" height="100px"></a>
@@ -25,11 +26,11 @@
         
         
         
-<!--    <link rel="stylesheet" href="<?php BASE_URL; ?>assets/css/w3.css"/>
-    <link rel="stylesheet" href="<?php BASE_URL; ?>assets/css/style.css"/>-->
+<!--    <link rel="stylesheet" href="<?php BASE_URL; ?>assets/css/w3.css"/>-->
+    <link rel="stylesheet" href="<?php BASE_URL; ?>assets/css/style.css"/>
     <link rel="stylesheet" href="<?php BASE_URL; ?>assets/css/normalize.css"/>
-    <!--<link rel="stylesheet" href="<?php BASE_URL; ?>assets/js/jquery-3.1.1.min.js"/>-->
-      <script src="<?php BASE_URL; ?>assets/js/bootstrap.min.js"></script>
+   
+      <!--<script src="<?php BASE_URL; ?>assets/js/bootstrap.min.js"></script>-->
             <script src="<?php BASE_URL; ?>assets/js/jquery.mask.js"></script>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
