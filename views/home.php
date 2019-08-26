@@ -120,10 +120,10 @@ body {font-family: "Lato", sans-serif}
             <span class="sr-only">Next</span>
         </a>
         </div>
-        </div>
+        
 
     <!-- The Band Section  fotos tem q ser/100px180/-->
-    <div class="w3-content w3-center w3-padding-64" id="band">
+    <div class="w3-content text-center my-5" id="band">
         <h2 class="w3-wide w3-text-yellow">Biografia</h2>
         <p class="w3-opacity"><i>A origem</i></p>
         <p class="w3-justify">Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.[1] O sertanejo é atualmente o mais popular estilo musical no Brasil, superando inclusive o samba, na maioria dos estados do país (especialmente São Paulo, Minas Gerais, Goiás, Paraná, Mato Grosso do Sul, Mato Grosso, Rondônia e Tocantins).</p>

@@ -15,10 +15,10 @@ if (ENVIRONMENT == 'development') {
 }
 else{
 
-		//define("BASE_URL", "https://fredyoliveira.com.br/");
-        $config['dbname']='u245522034_sidce';
+		define("BASE_URL", "https://fredyoliveira.com.br/");
+        $config['dbname']='';
 	$config['host']='mysql.hostinger.com.br';
-	$config['dbuser']='u245522034_sidce';
+	$config['dbuser']='';
 	$config['dbpass']='';
 }
 
