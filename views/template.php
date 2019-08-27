@@ -9,7 +9,7 @@
             <p class="w3-opacity w3-center"><i>Fan, me segue nas Redes Sociais!</i></p>
             <a href="https://www.facebook.com/fredyefilipe">   <img src="<?php BASE_URL; ?>assets/images/facebook.png" class="w3-hover-opacity" width="100px" height="100px"></a>
             <a href="#">   <img src="<?php BASE_URL; ?>assets/images/youtube.png" class="w3-hover-opacity" width="100px" height="100px"></a>
-            <a href="#">   <img src="<?php BASE_URL; ?>assets/images/instagran.png" class="w3-hover-opacity" width="100px" height="100px"></a>
+            <a href="https://www.instagram.com/fredyoliveiraoficial/?hl=pt-br">   <img src="<?php BASE_URL; ?>assets/images/instagran.png" class="w3-hover-opacity" width="100px" height="100px"></a>
  
   </center>
         </div>
